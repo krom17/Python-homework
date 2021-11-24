@@ -8,8 +8,6 @@ budget_data = [ "month", "year" , "profitloss" ]
 print(budget_data)
 
 
-# In[ ]:
-
 
 nested_budget_data = [ [ "jan", 2010 , 867884 ],
                       
@@ -165,16 +163,6 @@ Total8= x[76][2]+x[77][2]+x[78][2]+x[79][2]+x[80][2]+x[81][2]+x[82][2]+x[83][2]+
 total = Total1 + Total2 +Total3+Total4 +Total5+Total6+Total7+Total8
 print("Total", total)
 
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 nested_budget_data = [ [ "jan", 2010 , 867884 ],
@@ -361,12 +349,7 @@ print("_change_in_profit = ", tot)
 
 
                                                    
-                                                   
-
-
-
-
-# In[254]:
+                                     
 
 
 #Calculating the total change to determine the average
@@ -374,7 +357,6 @@ sum(tot)
 print("Sum_of_tot", sum(tot))
 
 
-# In[255]:
 
 
 p= sum(tot)
@@ -383,17 +365,12 @@ print(p)
 
 
 
-
-# In[256]:
-
-
 #calculating the average change
 average_change = p/85
 
 average_change
 
 
-# In[252]:
 
 
 print("Financial Analysis Summary")
@@ -406,7 +383,6 @@ print("Max increase in profits ocured February 2012 : ", max(tot))
 print("Max decrease in profits occured September 2013 : ", min(tot))
 
 
-# In[ ]:
 
 
 
